@@ -1,0 +1,20 @@
+{
+  "name": "potential-pancake",
+  "version": "1.0.0",
+  "description": "Takes in images and outputs ImageData objects",
+  "homepage": "https://github.com/Owen-Morgan825/potential-pancake#readme",
+  "bugs": {
+    "url": "https://github.com/Owen-Morgan825/potential-pancake/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Owen-Morgan825/potential-pancake.git"
+  },
+  "license": "MIT",
+  "author": "Owen-Morgan825",
+  "type": "module",
+  "main": "ImageConverter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

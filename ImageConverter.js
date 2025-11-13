@@ -13,10 +13,12 @@ class ImageConverter {
   }
   convertImageToImageData(image) {
     if(image.width > this.width || image.height > this.height) {
-      resize(image.width, image.height);
+      this.resize(image.width, image.height);
     }
     this.context.drawImage(image, 0, 0);
     const imgData = this.context.getImageData(0, 0, this.width, this.height, {colorSpace: "srgb", pixelFormat: "rgba-unorm8"});
     return imgData;
   }
 }
+
+export {ImageConverter};
